@@ -1,0 +1,23 @@
+{
+  "name": "lintertest",
+  "version": "1.0.0",
+  "description": "just a test",
+  "main": "index.js",
+  "scripts": {
+    "test": "htmlhint ./*.html",
+    "test2": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanGerman/LinterTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanGerman/LinterTest/issues"
+  },
+  "homepage": "https://github.com/IvanGerman/LinterTest#readme",
+  "devDependencies": {
+    "htmlhint": "^0.15.1"
+  }
+}
